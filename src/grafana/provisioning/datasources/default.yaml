@@ -12,7 +12,6 @@ datasources:
     editable: true
     isDefault: true
     jsonData:
-      # Align with Prometheus global scrape_interval (see prometheus ConfigMap in kubernetes manifest)
       timeInterval: "10s"
       exemplarTraceIdDestinations:
         - datasourceUid: webstore-traces
